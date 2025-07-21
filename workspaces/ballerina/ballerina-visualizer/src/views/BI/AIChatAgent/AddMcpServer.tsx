@@ -714,7 +714,7 @@ export function AddMcpServer(props: AddToolProps): JSX.Element {
                         </Button>
                     )}
                 </ToolsHeader>
-                
+                                
                 {loadingMcpTools && (
                     <LoadingMessage>
                         <RelativeLoader />
